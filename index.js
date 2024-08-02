@@ -45,6 +45,10 @@ const branchBDetails = {
     cellNumber: "087 345 3740",
 }
 
+const bankBranchA = new BankBranch(branchADetails)
+const bankBranchB = new BankBranch(branchBDetails)
+console.log(bankBranchA)
+console.log(bankBranchB)
 // This pseudo-code provides a step-by-step explanation of how to implement the Singleton Pattern for managing a single instance of the `BankBranch` class throughout the application, ensuring that multiple instances refer to the same object.
 
 // NOTES:

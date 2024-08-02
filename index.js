@@ -20,6 +20,18 @@ class BankBranch {
         this.branchInfo = newInfo
     }
 }
+
+const branchADetails = {
+    city: "Cape Town",
+    suburb: "Pinelands",
+    cellNumber: "021 531 6946",
+}
+
+const branchBDetails = {
+    city: "Johannesburg",
+    suburb: "Sandton",
+    cellNumber: "087 345 3740",
+}
 // 3. In the `BankBranch` class:
 //    - Create a constructor that takes `branchInfo` as a parameter.
 //    - Inside the constructor, check if the `bankBranchInstance` variable is null (indicating no instance exists).

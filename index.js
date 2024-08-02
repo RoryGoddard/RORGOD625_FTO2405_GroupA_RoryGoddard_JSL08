@@ -11,6 +11,14 @@ class BankBranch {
         }
         return bankBranchInstance
     }
+    
+    getBranchInfo() {
+        return this.branchInfo
+    }
+
+    changeBranchInfo(newInfo) {
+        this.branchInfo = newInfo
+    }
 }
 // 3. In the `BankBranch` class:
 //    - Create a constructor that takes `branchInfo` as a parameter.
